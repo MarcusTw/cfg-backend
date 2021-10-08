@@ -1,0 +1,5 @@
+[
+    {"pk": 1, "model": "education.EducationLevel", "fields": {"type_of_education": "Primary"}},
+    {"pk": 2, "model": "education.EducationLevel", "fields": {"type_of_education": "HighSchool"}},
+    {"pk": 3, "model": "education.EducationLevel", "fields": {"type_of_education": "Tertiary"}}
+]

@@ -1,0 +1,6 @@
+[
+    {"pk": 1, "model": "education.Region", "fields": {"RegionName": "North", "RegionDescription":"Nice region"}},
+    {"pk": 2, "model": "education.Region", "fields": {"RegionName": "South", "RegionDescription":"Nice region"}},
+    {"pk": 3, "model": "education.Region", "fields": {"RegionName": "East", "RegionDescription":"Nice region"}},
+    {"pk": 4, "model": "education.Region", "fields": {"RegionName": "West", "RegionDescription":"Nice region"}}
+]
