@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls.conf import include
 from rest_framework.routers import DefaultRouter
 from django.urls import path
+from django.views.generic import RedirectView
+from django.conf.urls import url
 from education.views import (
     RegionViewSet,
     HouseHoldViewSet,
@@ -32,5 +34,6 @@ router.register(r"schools", SchoolViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('v1/', include(router.urls)),
+    url(r'^favicon\.ico$',RedirectView.as_view(url='/static/images/favicon.ico'))
 
 ]
