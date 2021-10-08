@@ -34,6 +34,5 @@ router.register(r"schools", SchoolViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('v1/', include(router.urls)),
-    url(r'^favicon\.ico$',RedirectView.as_view(url='/static/images/favicon.ico'))
-
+    url(r'^favicon\.ico$',RedirectView.as_view(url="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jpmorganchase.com%2Fnews-stories%2Ffive-things-you-need-to-know-about-code-for-good&psig=AOvVaw1cRD7sD1Y1bSecvp-KuC5C&ust=1633813423751000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiYuLjbu_MCFQAAAAAdAAAAABAD"))
 ]
